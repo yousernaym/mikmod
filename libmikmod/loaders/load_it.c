@@ -277,7 +277,7 @@ static UBYTE* IT_ConvertTrack(ITNOTE* tr,UWORD numrows)
 				UniNote(note);
 		}
 
-		if((ins)&&(ins<100))
+		if((ins)&&(ins<253))
 			UniInstrument(ins-1);
 		else if(ins==253)
 			UniWriteByte(UNI_KEYOFF);
