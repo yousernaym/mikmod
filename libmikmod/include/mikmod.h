@@ -871,6 +871,8 @@ MIKMODAPI extern BOOL  VC_VoiceStopped(UBYTE);
 MIKMODAPI extern SLONG VC_VoiceGetPosition(UBYTE);
 MIKMODAPI extern ULONG VC_VoiceRealVolume(UBYTE);
 
+MIKMODAPI extern UWORD MikMod_GetOperandCount(int opCode);
+
 #ifdef __cplusplus
 }
 #endif

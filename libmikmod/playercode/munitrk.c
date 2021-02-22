@@ -115,6 +115,11 @@ const UWORD unioperands[UNI_LAST] = {
 	1, /* UNI_MEDEFFECT_1F */
 };
 
+UWORD MikMod_GetOperandCount(int opCode)
+{
+	return unioperands[opCode];
+}
+
 /* Sparse description of the internal module format
    ------------------------------------------------
 
